@@ -9,7 +9,6 @@ body {
 }
 
 .gittest {
-   max-width: 800px;
    width: 100%;
    display: flex;
    align-items: center;
@@ -22,10 +21,19 @@ body {
    min-height: 100vh;
 }
 
-.btn {
+.btnBox {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.btn, .btn2{
   width: 120px;
   height: 40px;
   border-style: none;
+  border-top: 1px solid rgb(135, 173, 243);
+  border-bottom: 1px solid rgb(43, 79, 145);
   background-color: rgb(63, 103, 177);
   font-size: 1rem;
   color: rgb(132, 172, 247);

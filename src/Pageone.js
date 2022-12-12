@@ -5,15 +5,22 @@ const Pageone = () => {
 
     const navigate = useNavigate()
 
-    const goBack = () => {
+    const prevPage = () => {
         navigate('/')
+    }
+
+    const nextPage = () => {
+        navigate('/pagetwo')
     }
 
 
     return (
         <div className="pageone">
-            Page 1
-            <button type="button" className="btn" onClick={goBack}>back</button>
+            <span>Page 1</span>
+            <div className="btnBox">
+                <button type="button" className="btn" onClick={prevPage}>back</button>
+                <button type="button" className="btn2" onClick={nextPage}>next</button>
+            </div>
         </div>
     )
 }
