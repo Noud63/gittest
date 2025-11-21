@@ -39,6 +39,7 @@ body {
   color: rgb(166, 189, 231);
   margin-top: 20px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .pageone {

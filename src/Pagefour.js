@@ -4,17 +4,25 @@ import { useNavigate } from "react-router-dom";
 const Pagefour = () => {
   const navigate = useNavigate();
 
-  
-  const nextPage = () => {
+  const prevPage = () => {
+    navigate("/pagethree/3");
+  };
+
+  const homePage = () => {
     navigate("/");
   };
 
   return (
     <div className="pageone">
       <span>Page 4</span>
-      <button type="button" className="btn" onClick={nextPage}>
-        back
-      </button>
+      <div className="btnBox">
+        <button type="button" className="btn" onClick={prevPage}>
+          back
+        </button>
+        <button type="button" className="btn" onClick={homePage}>
+          home
+        </button>
+      </div>
     </div>
   );
 };
