@@ -7,15 +7,22 @@ const Pagetwo = () => {
     // const myParam = useLocation().search;
     // console.log(myParam.split('')[1])
 
-    const goBack = () => {
-        navigate('/pageone')
+     const prevPage = () => {
+        navigate('/')
+    }
+
+    const nextPage = () => {
+        navigate('/pagethree')
     }
 
 
     return (
         <div className="pageone">
             <span>Page 2</span>
-            <button type="button" className="btn" onClick={goBack}>back</button>
+           <div className="btnBox">
+                <button type="button" className="btn" onClick={prevPage}>back</button>
+                <button type="button" className="btn2" onClick={nextPage}>next</button>
+            </div>
         </div>
     )
 }
