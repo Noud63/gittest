@@ -13,7 +13,7 @@ const Pagetwo = () => {
     }
 
     const nextPage = () => {
-        navigate('/pagethree')
+        navigate(`/pagethree/${id + 1}`)
     }
   return (
         <div className="pageone">
