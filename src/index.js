@@ -12,8 +12,8 @@ root.render(
   <Router>
     <Routes>
       <Route path='/' element={<App />} />
-      <Route path='/pageone' element={<Pageone />} />
-      <Route path='/pagetwo' element={<Pagetwo />} />
+      <Route path='/pageone/:id' element={<Pageone />} />
+      <Route path='/pagetwo/:id' element={<Pagetwo />} />
       <Route path='/pagethree' element={<Pagethree />} />
     </Routes>
   </Router>
