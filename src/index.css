@@ -34,9 +34,9 @@ body {
   border-style: none;
   border-top: 1px solid rgb(135, 173, 243);
   border-bottom: 1px solid rgb(43, 79, 145);
-  background-color: rgb(32, 60, 114);
+  background-color: rgb(63, 103, 177);
   font-size: 1rem;
-  color: rgb(166, 189, 231);
+  color: rgb(132, 172, 247);
   margin-top: 20px;
   cursor: pointer;
 }
