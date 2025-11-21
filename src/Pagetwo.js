@@ -1,14 +1,15 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-// import { useLocation } from "react-router-dom";
+import { useNavigate} from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 const Pagetwo = () => {
     const navigate = useNavigate()
-    const myParam = useLocation().search;
-    console.log(myParam.split('')[1])
+    const myParam = useParams()
+    const id = myParam.id
+    console.log(myParam.id)
 
      const prevPage = () => {
-        navigate('/')
+        navigate(`/pageone/${id - 1}`)
     }
 
     const nextPage = () => {

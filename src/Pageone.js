@@ -10,7 +10,7 @@ const Pageone = () => {
     }
 
     const nextPage = () => {
-        navigate('/pagetwo')
+        navigate('/pagetwo/2')
     }
 
 
