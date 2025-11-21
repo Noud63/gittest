@@ -6,11 +6,11 @@ const Pagethree = () => {
     const navigate = useNavigate()
 
      const prevPage = () => {
-        navigate('/pagetwo')
+        navigate('/pagetwo/2')
     }
 
     const nextPage = () => {
-        navigate('/pagefour')
+        navigate('/pagefour/4')
     }
 
   return (
