@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom'
 
 const Pagetwo = () => {
     const navigate = useNavigate()
-    // const myParam = useLocation().search;
-    // console.log(myParam.split('')[1])
+    const myParam = useLocation().search;
+    console.log(myParam.split('')[1])
 
      const prevPage = () => {
         navigate('/')
@@ -14,9 +14,7 @@ const Pagetwo = () => {
     const nextPage = () => {
         navigate('/pagethree')
     }
-
-
-    return (
+  return (
         <div className="pageone">
             <span>Page 2</span>
            <div className="btnBox">
