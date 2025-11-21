@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Pageone from './Pageone'
 import Pagetwo from './Pagetwo'
 import Pagethree from './Pagethree'
-import Pagefour from './Pagefour'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +15,6 @@ root.render(
       <Route path='/pageone' element={<Pageone />} />
       <Route path='/pagetwo' element={<Pagetwo />} />
       <Route path='/pagethree' element={<Pagethree />} />
-      <Route path='/pagefour' element={<Pagefour />} />
     </Routes>
   </Router>
 );

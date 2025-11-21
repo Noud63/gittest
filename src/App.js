@@ -6,7 +6,7 @@ function App() {
    const navigate = useNavigate()
 
   const nextPage = () => {
-     navigate('/pageone')
+     navigate('/pageone?1')
   }
 
   return (
